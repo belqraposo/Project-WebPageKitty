@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito','Montserrat', sans-serif;
+    color: rgb(59, 57, 57);
+}
+
+h1, h2, h3{
+    color:#3A0F00;
+}
+
+main h2{
+    width: 260px;
+    padding: 10px 0px;
+    background-color: #f8eedd;
+    display: inline-block;
+    border-radius: 10px;
+    }
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #eeddc0;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+nav h2{
+    position: absolute;
+    top: 95%;
+    width: max-content;
+}
+
+nav img{
+    width: 100px;
+    padding: 10px 20px 0px;
+}
+
+.div-nav-logo{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+
+.div-nav-menu li{
+    color:#3A0F00;
+    font-weight: 700;
+    display: inline-block;
+    padding: 8px;
+}
+
+.div-nav-menu li:hover{
+    color:#CFA55F;
+}
+
+.div-nav-menu{
+    list-style: none;
+    display: inline-block;
+    top: 50%;
+    width: 100%;
+    text-align: right;
+    transform: translate(-140px, -50%);
+    position: absolute;
+}
+
+.div-nav-menu ul{
+    display: inline;
+}
+
+.sec-sobre{
+    text-align: center;
+}
+
+.sec-sobre h1{
+    font-size: 400%;
+    margin: 100px 0px 50px;
+    text-align: center;
+}
+
+.sec-sobre img{
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.sec-sobre button{
+    height: 50px;
+    width: 160px;
+    border-radius: 12px;
+    border-style: none;
+    background-color:  #E2CBA6;
+    color:#3A0F00;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 10px;
+    transition: transform 0.1s linear;
+}
+
+.sec-sobre button:hover{
+    background-color: #D4B584;
+    color:#3A0F00;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.div-sec-sobre-img{
+    width: 50%;
+}
+
+.paragraph-container h2{
+    font-size: 1.7em;
+}
+
+.paragraph-container p{
+    text-align: justify;
+    width: 500px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.div-sec-sobre-img, .paragraph-container{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1rem;
+}
+
+.seja-voluntario{
+    text-align: left;
+}
+
+.seja-voluntario h3{ 
+    margin: 10px 0 0 10px;
+}
+
+.sec-adocao {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background: #eeddc061;
+}
+
+.adocao-wrapper {
+    max-width: 1366px;
+    display: inline-block;
+    padding: 40px 0;
+}
+
+.adocao-wrapper h2{
+    font-size: 2em;
+}
+
+.adocao-wrapper p {
+    font-size: 1.3em;
+    padding: 20px 0;
+}
+
+.div-gato {
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.div-gato:hover{
+    transform: scale(1.1);
+}
+
+.div-gato:hover .cat-info {
+    display: block;
+    animation: displayCatInformation 0.5s forwards;
+}
+
+.div-gato img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.div-gato .cat-info {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #000000b0;
+}
+
+.div-gato .cat-info h3 {
+    color: #D4B584;
+}
+
+.div-gato .cat-info p {
+    color: #fff;
+    padding: 2px;
+}
+
+.div-gato .cat-info button {
+    width: 100%;
+    background-color: #D4B584;
+    border: 1px solid #ba750687;
+    padding: 5px;
+    color: #3A0F00;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-weight: 700;
+}
+
+.div-gato .cat-info button:hover {
+    background-color: #bb8d45;
+}
+
+@keyframes displayCatInformation {
+0% {
+    opacity: 0;
+    bottom: -50px;
+    }
+
+100% {
+    opacity: 1;
+    bottom: 0;
+    }
+}
+
+footer {
+    background-color: #eeddc0;
+    width: 100%;
+    text-align: center;
+}
+
+footer div{
+    margin: 0px 20px;
+}
+
+.div-foot-social-media img{
+    width: 40px;
+}
+
+.div-foot-social-media{
+    width: 160px;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div-foot-endereco{
+    width: 200px;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div-foot-email{
+    width: 160px;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
